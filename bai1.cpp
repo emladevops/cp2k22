@@ -19,8 +19,7 @@ int main() {
         bool dup = false;
         int splitted[n];
         for (int i = 0; i < n; i++) {
-            int splted = a[i] % currnum;
-            splitted[i] = splted;
+            splitted[i] = a[i] % currnum;
         }
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {

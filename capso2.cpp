@@ -1,12 +1,10 @@
 #include<iostream>
-#include<math.h>
 
 using namespace std;
-typedef long long ll;
-
-
+typedef long ll;
 
 int main() {
+    ios_base::sync_with_stdio(false);
     ll a, b, c, d, count = 0;
     cin >> a >> b >> c >> d;
     for(int x = 0; x <= d; x++) {
@@ -16,9 +14,9 @@ int main() {
             }
         }
     }
-    
     cin.tie(0);
     cout.tie(0);
     cout << count;
+
     return 0;
 }
